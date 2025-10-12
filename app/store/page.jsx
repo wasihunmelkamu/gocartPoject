@@ -19,7 +19,6 @@ export default function Dashboard() {
         totalOrders: 0,
         ratings: [],
     })
-
     const dashboardCardsData = [
         { title: 'Total Products', value: dashboardData.totalProducts, icon: ShoppingBasketIcon },
         { title: 'Total Earnings', value: currency + dashboardData.totalEarnings, icon: CircleDollarSignIcon },
