@@ -16,6 +16,7 @@ model User {
   id           String     @id
   name         String
   email        String     @unique
+  password     String
   image        String
   cart         Json?      // removed @default("{}")
 

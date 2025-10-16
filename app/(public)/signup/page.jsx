@@ -1,12 +1,10 @@
-import LoginForm from '../../../components/LoginForm';
+import SignupForm from '../../../components/SignupForm';
 
-
-export default function LoginPage() {
-
+export default function SignupPage() {
   return (
     <section className="py-12">
       <div className="container mx-auto">
-        <LoginForm />
+        <SignupForm />
       </div>
     </section>
   );
