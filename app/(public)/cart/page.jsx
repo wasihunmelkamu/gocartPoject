@@ -16,7 +16,6 @@ export default function Cart() {
     const products = useSelector(state => state.product.list);
 
     const dispatch = useDispatch();
-
     const [cartArray, setCartArray] = useState([]);
     const [totalPrice, setTotalPrice] = useState(0);
 
