@@ -1,4 +1,4 @@
-import { prisma } from "../../../../lib/prisma";
+import { prisma } from "../../../lib/prisma"
 import bcrypt from "bcryptjs";
 export async function POST(request) {
   const { email, password } = await request.json();
